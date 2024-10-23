@@ -2,42 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smartwatch</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-   
-    <link rel="stylesheet" href="asset/css/style.css">
+    <title>Smartwatch Promotion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <section class="iklan" id="iklan">
-        <div class="content">
-            <h3>Your Life, Your Smartwatch</h3>
-            <p>Smartwatch yang mengerti gaya hidup Anda, dari aktivitas harian hingga notifikasi penting.</p>
-            <a href="" class="btn">Buy Now</a>
+<body class="bg-gray-50 flex items-center justify-center h-screen">
+    <div class="container mx-auto px-4 flex flex-col lg:flex-row items-center lg:justify-between">
+        <!-- Text Section -->
+        <div class="text-center lg:text-left max-w-lg">
+            <h1 class="text-4xl font-bold text-gray-900 lg:text-5xl mb-4">
+                Your Life, Your <br> Smartwatch
+            </h1>
+            <p class="text-gray-500 text-lg mb-6">
+                Smartwatch Yang Mengerti Gaya Hidup Anda, Dari Aktivitas Harian Hingga Notifikasi Penting.
+            </p>
+            <a href="#" class="bg-black text-white py-3 px-6 rounded-full text-lg">
+                Buy Now
+            </a>
         </div>
-        <div class="image">
-            <img src="asset/images/jam.png" alt="">
-        </div>
-    </section>
-    <section class="about"  id="about">
-        <div class="image1">
-            <img src="asset/images/jam.png" alt="">
-        </div>
-        <div class="box">
-            <h3>About The Product</h3>
-            <p>Our smartwatch combines advanced technology with sleek design. It serves as:</p>
-            <ol class="numbered-list">
-                <li>Personal Assistant</li>
-                <li>Fitness Tracker</li>
-                <li>Communication Hub</li>
-                <li>Health Monitor</li>
-                <li>Customizable Watch Faces</li>
-                <li>Long Battery Life</li>
-                <li>Water and Dust Resistant</li>
-            </ol>
-        </div>
-        
-    </section>
 
+        <!-- Image Section -->
+        <div class="mt-8 lg:mt-0 lg:ml-12">
+            <img src="asset/images/jam.png" alt="Smartwatch" class="w-80 h-auto">
+        </div>
+    </div>
 </body>
+</html>
