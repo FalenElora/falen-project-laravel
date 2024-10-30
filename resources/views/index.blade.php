@@ -16,9 +16,13 @@
             <p class="text-gray-500 text-lg mb-6">
                 Smartwatch Yang Mengerti Gaya Hidup Anda, Dari Aktivitas Harian Hingga Notifikasi Penting.
             </p>
-            <a href="#" class="bg-black text-white py-3 px-6 rounded-full text-lg">
-                Buy Now
+            <a href="{{ route('login') }}" class="bg-black text-white py-3 px-6 rounded-full text-lg">
+                Login
             </a>
+            <a href="{{ route('about') }}" class="bg-black text-white py-3 px-6 rounded-full text-lg">
+                About
+            </a>
+            
         </div>
 
         <!-- Image Section -->
